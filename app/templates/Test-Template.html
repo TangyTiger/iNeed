@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Test</title>
+    <script>
+        function func() {
+            user = document.getElementById('user').value
+            xhr = new XMLHttpRequest;
+            xhr.open('PUT', '/login')
+            xhr.setRequestHeader('content-type', 'application/json')
+            xhr.onreadystatechange =  function() {
+                if (this.readystate == 4 && this.status == 200) {
+                    res = JSON.parse(this.responseText)
+                    var resp = res.response
+                    document.getElementById('hi').innerHTML = resp
+
+                }
+            }
+            xhr.send(JSON.stringify({'user': user}))
+        }
+    </script>
 </head>
 <body>
-<button>Button</button>
+<p id="hi"></p>
+<input type="text" id="user" label="Username: ">
+<button onclick="func()">Button</button>
 </body>
 </html>
