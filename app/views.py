@@ -21,5 +21,13 @@ def ineed():
 def login():
     req = request.json
     if req['user'] in users:
-        session['user'] = req['user']
-        return jsonify({'response': 'you are logged in.'})
+        if req['pass'] == users[req['user']]:
+            return jsonify({'response': 'you are logged in.'})
+        else:
+            return jsonify({'response': 'incorrect email or password'})
+
+    else:
+        return jsonify({'response': 'this account does not exist'})
+
+
+@app.route('/')
