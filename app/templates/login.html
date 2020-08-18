@@ -15,7 +15,13 @@
                     res = JSON.parse(this.responseText)
                     var resp = res.response
                     document.getElementById('hi').innerHTML = resp
-
+                    xhr2 = new XMLHttpRequest;
+                    xhr2.open('GET', '/ineed')
+                    xhr.onreadystatechange = function() {
+                        if (this.readystate == 4 && this.status == 200) {
+                            document.getElementByTagName('body').innerHTML = this.responseText
+                        }
+                    }
                 }
             }
             xhr.send(JSON.stringify({'email': email, 'pass': pass}))
@@ -26,6 +32,8 @@
         <br>
         <br>
         Password: <input id = "pass" type="password" >
+    <br>
+    <br>
     <button type="button" onclick="login()">Submit</button>
 </head>
 <body>

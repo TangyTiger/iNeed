@@ -14,7 +14,7 @@ jobs = {}
 
 @app.route('/ineed', methods=['GET'])
 def ineed():
-    if 'user' in session:
+    if 'email' in session:
         return render_template('Homepage.html')
     return render_template('login.html')
 
@@ -22,9 +22,9 @@ def ineed():
 @app.route('/login', methods=['PUT'])
 def login():
     req = request.json
-    if req['user'] in users:
-        if req['pass'] == users[req['user']]:
-            session['user'] = req['user']
+    if req['email'] in users:
+        if req['pass'] == users[req['email']]:
+            session['email'] = req['email']
             return jsonify({'response': 'you are logged in.'})
         else:
             return jsonify({'response': 'incorrect email or password'})
@@ -35,10 +35,10 @@ def login():
 @app.route('/createaccount', methods=['PUT'])
 def create_account():
     req = request.json
-    if req['user'] in users:
+    if req['email'] in users:
         return jsonify({'response': 'This email is already in use.'})
-    users[req['user']] = req['pass']
-    session['user'] = req['user']
+    users[req['email']] = req['pass']
+    session['email'] = req['email']
     return jsonify({'response': 'Account Created!'})
 
 
