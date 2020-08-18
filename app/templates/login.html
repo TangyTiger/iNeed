@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <form>
-        Username: <input type="text" />
-        Password: <input type="text" >
-    </form>
-    <button type="button" onclick="">Submit</button>
+    <script>
+        function login() {
+            user = document.getElementById('user').value
+            pass = document.getElementById('pass').value
+            xhr = new XMLHttpRequest;
+            xhr.open('PUT', '/login')
+            xhr.setRequestHeader('content-type', 'application/json')
+            xhr.onreadystatechange =  function() {
+                if (this.readystate == 4 && this.status == 200) {
+                    res = JSON.parse(this.responseText)
+                    var resp = res.response
+                    document.getElementById('hi').innerHTML = resp
+
+                }
+            }
+            xhr.send(JSON.stringify({'user': user, 'pass': pass}))
+        }
+
+   </script>
+        Username: <input id = "user" type="text" >
+        Password: <input id = "pass" type="text" >
+    <button type="button" onclick="login()">Submit</button>
 </head>
 <body>
 
