@@ -24,6 +24,7 @@ def login():
     req = request.json
     if req['user'] in users:
         if req['pass'] == users[req['user']]:
+            session['user'] = req['user']
             return jsonify({'response': 'you are logged in.'})
         else:
             return jsonify({'response': 'incorrect email or password'})
