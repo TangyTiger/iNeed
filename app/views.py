@@ -30,7 +30,11 @@ def login():
 
 @app.route('/createaccount', methods=['PUT'])
 def create_account():
-    return
+    req = request.json
+    if req['user'] in users:
+        return jsonify({'response': 'This email is already in use.'})
+    users[req['user']] = req['pass']
+    return jsonify({'response': 'Account Created!'})
 
 
 @app.route('/postjob', methods=['PUT'])
