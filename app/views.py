@@ -56,7 +56,7 @@ def post_job():
         'pin': pin
     }
     jobs[str(pin)] = job
-    return
+    return "lash;dflkhjdso"
 
 
 @app.route('/apply', methods=['PUT'])
