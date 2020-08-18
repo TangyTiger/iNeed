@@ -5,7 +5,7 @@ import logging
 logger = logging.getLogger("werkzeug")
 logger.setLevel(logging.ERROR)
 
-@app.route('/PUT-URL-HERE', methods=['GET', 'PUT']) #choose either GET or PUT. GET for getting HTML to display, PUT for other communications.
+@app.route('/PUT-URL-HERE', methods=['GET', 'PUT']) # choose either GET or PUT. GET for getting HTML to display, PUT for other communications.
 def func_name_here():
     req = request.json   # only if a PUT request:
     '''

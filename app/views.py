@@ -1,5 +1,4 @@
 from app import app
-import random
 from flask import request, session, jsonify, render_template
 import logging
 
@@ -25,9 +24,22 @@ def login():
             return jsonify({'response': 'you are logged in.'})
         else:
             return jsonify({'response': 'incorrect email or password'})
-
     else:
         return jsonify({'response': 'this account does not exist'})
 
 
-@app.route('/')
+@app.route('/createaccount', methods=['PUT'])
+def create_account():
+    return
+
+
+@app.route('/postjob', methods=['PUT'])
+def post_job():
+    return
+
+
+@app.route('/apply', methods=['PUT'])
+def apply():
+    return
+
+
