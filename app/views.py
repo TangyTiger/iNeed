@@ -7,3 +7,6 @@ logger = logging.getLogger("werkzeug")
 logger.setLevel(logging.ERROR)
 
 
+@app.route('/ineed', methods=['GET'])
+def login():
+    return render_template('Test-Template.html')
