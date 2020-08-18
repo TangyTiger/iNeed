@@ -5,7 +5,7 @@
     <title>Login</title>
     <script>
         function login() {
-            user = document.getElementById('user').value
+            email = document.getElementById('email').value
             pass = document.getElementById('pass').value
             xhr = new XMLHttpRequest;
             xhr.open('PUT', '/login')
@@ -18,12 +18,14 @@
 
                 }
             }
-            xhr.send(JSON.stringify({'user': user, 'pass': pass}))
+            xhr.send(JSON.stringify({'email': email, 'pass': pass}))
         }
 
    </script>
-        Username: <input id = "user" type="text" >
-        Password: <input id = "pass" type="text" >
+        Email: <input id = "email" type="text" >
+        <br>
+        <br>
+        Password: <input id = "pass" type="password" >
     <button type="button" onclick="login()">Submit</button>
 </head>
 <body>
