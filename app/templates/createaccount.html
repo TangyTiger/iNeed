@@ -5,15 +5,89 @@
     <title>Title</title>
     <script src="static/ineed.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    Enter Email: <input id = "email" type="text" >
-    <br>
-    <br>
-    Create Password: <input id = "pass" type="password" >
-    <br>
-    <br>
-    <button type="button" onclick="createaccount()">Submit</button>
-</head>
-<body>
 
+</head>
+<body id = "body">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class = 'info'>
+    Enter Email: <input class = "text-box" id = "email" type="text" >
+    <br>
+    <br>
+    Create Password: <input class = "text-box" id = "pass" type="password" >
+    <br>
+    <br>
+    First Name: <input class = "text-box" id="fname" type="text">
+    <br>
+    <br>
+    Last Name: <input class = "text-box" id="lname" type="text">
+    <br>
+    <br>
+    County: <input class = "text-box" id="county" type="text">
+    <br>
+    <br>
+        </p>
+    <br>
+    <br>
+    <button type="button" class = "_button_" onclick="createaccount()">Create Account</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img id = "logo" src = "/static/iNeed.png" alt = "still not working">
+    <style>
+        .info{
+        background-color: #03CAFC;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+        }
+
+        .text-box{
+        border-radius: 15px;
+        }
+
+        ._button_{
+        background-color: #03CAFC;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        font-family: helvetica
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+        #logo{
+        width: 25%;
+        height: 25%;
+        }
+
+       #body{
+           text-align: center;
+           background: #ffffff;
+           border-right-style: solid;
+           border-right-width: 2.5x;
+           border-left-style: solid;
+           border-left-width: 2.5x;
+       }
+    </style>
 </body>
 </html>

@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ece3a28f-f927-4a8a-872c-85be9c21d008" name="Default Changelist" comment="" />
+    <list default="true" id="ece3a28f-f927-4a8a-872c-85be9c21d008" name="Default Changelist" comment="asdf">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/createaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/createaccount.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +57,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Shah family\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
@@ -67,23 +88,30 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1597868070328">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1012" height="220" key="GridCell.Tab.0.bottom" timestamp="1597871413820">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1597868070328">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1012" height="220" key="GridCell.Tab.0.bottom/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413820" />
+    <state width="1012" height="220" key="GridCell.Tab.0.center" timestamp="1597871413820">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1597868070328">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1012" height="220" key="GridCell.Tab.0.center/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413820" />
+    <state width="1012" height="220" key="GridCell.Tab.0.left" timestamp="1597871413819">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1597868070328">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1012" height="220" key="GridCell.Tab.0.left/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413819" />
+    <state width="1012" height="220" key="GridCell.Tab.0.right" timestamp="1597871413820">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
+    <state width="1012" height="220" key="GridCell.Tab.0.right/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413820" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1597865426250">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
