@@ -36,17 +36,6 @@ def login():
 def create_account():
     return render_template('createaccount.html')
 
-
-@app.route('/createaccount', methods=['PUT'])
-def createaccount():
-    req = request.json
-    if req['email'] in users:
-        return jsonify({'response': 'This email is already in use.'})
-    users[req['email']] = req['pass']
-    session['email'] = req['email']
-    return jsonify({'response': 'Account Created!'})
-
-
 @app.route('/postjob', methods=['PUT'])
 def post_job():
     req = request.json
