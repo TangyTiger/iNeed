@@ -31,11 +31,11 @@ function createaccount() {
             xhr2.open('GET', '/ineed')
             xhr2.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementByTagName('body').innerHTML = this.responseText
+                    document.getElementById('body').innerHTML = this.responseText
                 }
             }
+            xhr2.send()
         }
-        xhr2.send()
     }
     xhr.send(JSON.stringify({'email': email, 'pass': pass}))
 }

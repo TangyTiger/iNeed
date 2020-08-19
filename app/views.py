@@ -7,10 +7,12 @@ logger = logging.getLogger("werkzeug")
 logger.setLevel(logging.ERROR)
 
 users = {
-        'sarthaklodha15@gmail.com': '1234567890'
+        'sarthaklodha15@gmail.com': '1234567890',
+        'aarush.uli@gmail.com': 'p00p'
         }
 
 jobs = {}
+
 
 @app.route('/ineed', methods=['GET'])
 def ineed():
@@ -43,6 +45,7 @@ def createaccount():
     if req['email'] in users:
         return 'This email is already in use'
     users[req['email']] = req['pass']
+    session['email'] = req['email']
     return 'Account Created!'
 
 
