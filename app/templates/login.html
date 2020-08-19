@@ -2,29 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>iNeed!</title>
     <script src="static/ineed.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body id="body">
-Email: <input id = "email" type="text" >
     <br>
     <br>
-Password: <input id = "pass" type="password" >
     <br>
     <br>
-    <button type = "button" class = "_button_"nclick="login()">Submit</button>
+    <br>
+    <p class = "info">
+    Email: <input type="text" >
+    <br>
+    <br>
+    Password: <input type="password" >
+    <br>
+    <br>
+    <p>
+    <button type = "button" class = "_button_" onclick="login()">Submit</button>
     <br>
     <br>
     <button id = "creatacct" class = "_button_" onclick="create_account()">Don't have an account? Create one!</button>
+    <br>
+    <br>
+    <img src = "/static/iNeed.png" alt = "still not working">
     <style>
-        #email{
-        text: blue;
-        }
-
-        ._button_{
-        background-color: #0000FF;
+        .info{
+        background-color: #03CAFC;
         border: none;
+        border-radius: 15px;
         color: white;
         padding: 15px 32px;
         text-align: center;
@@ -35,6 +42,24 @@ Password: <input id = "pass" type="password" >
         cursor: pointer;
         }
 
+        ._button_{
+        background-color: #03CAFC;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+       #body{
+           text-align: center;
+           background: #000000;
+       }
     </style>
 </body>
 </html>
