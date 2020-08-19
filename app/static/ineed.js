@@ -35,7 +35,7 @@ function createaccount() {
                 }
             }
         }
-        xhr2.send
+        xhr2.send()
     }
     xhr.send(JSON.stringify({'email': email, 'pass': pass}))
 }
