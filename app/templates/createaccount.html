@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function createaccount() {
+            email = document.getElementById('email').value
+            pass = document.getElementById('pass').value
+            xhr = new XMLHttpRequest;
+            xhr.open('PUT', '/createaccount')
+            xhr.setRequestHeader('content-type', 'application/json')
+            xhr.onreadystatechange =  function() {
+                if (this.readystate == 4 && this.status == 200) {
+                    res = JSON.parse(this.responseText)
+                    var resp = res.response
+                    document.getElementById('hi').innerHTML = resp
+                    xhr2 = new XMLHttpRequest;
+                    xhr2.open('GET', '/ineed')
+                    xhr.onreadystatechange = function() {
+                        if (this.readystate == 4 && this.status == 200) {
+                            document.getElementByTagName('body').innerHTML = this.responseText
+                        }
+                    }
+                }
+            }
+            xhr.send(JSON.stringify({'email': email, 'pass': pass}))
+        }
+
+   </script>
+    Enter Email: <input id = "email" type="text" >
+    <br>
+    <br>
+    Create Password: <input id = "pass" type="password" >
+    <br>
+    <br>
+    <button type="button" onclick="createaccount()">Submit</button>
+</head>
+<body>
+
+</body>
+</html>
