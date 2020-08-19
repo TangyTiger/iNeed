@@ -8,17 +8,33 @@
 </head>
 <body id="body">
 Email: <input id = "email" type="text" >
-        <br>
-        <br>
+    <br>
+    <br>
 Password: <input id = "pass" type="password" >
     <br>
     <br>
-    <button type="button" onclick="login()">Submit</button>
-    <p id="creatacct" onclick="create_account()">Don't have an account? Create one!</p>
+    <button type = "button" class = "_button_"nclick="login()">Submit</button>
+    <br>
+    <br>
+    <button id = "creatacct" class = "_button_" onclick="create_account()">Don't have an account? Create one!</button>
     <style>
         #email{
         text: blue;
         }
+
+        ._button_{
+        background-color: #0000FF;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
     </style>
 </body>
 </html>
