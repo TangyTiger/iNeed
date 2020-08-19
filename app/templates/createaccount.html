@@ -3,31 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script>
-        function createaccount() {
-            email = document.getElementById('email').value
-            pass = document.getElementById('pass').value
-            xhr = new XMLHttpRequest;
-            xhr.open('PUT', '/createaccount')
-            xhr.setRequestHeader('content-type', 'application/json')
-            xhr.onreadystatechange =  function() {
-                if (this.readystate == 4 && this.status == 200) {
-                    res = JSON.parse(this.responseText)
-                    var resp = res.response
-                    document.getElementById('hi').innerHTML = resp
-                    xhr2 = new XMLHttpRequest;
-                    xhr2.open('GET', '/ineed')
-                    xhr.onreadystatechange = function() {
-                        if (this.readystate == 4 && this.status == 200) {
-                            document.getElementByTagName('body').innerHTML = this.responseText
-                        }
-                    }
-                }
-            }
-            xhr.send(JSON.stringify({'email': email, 'pass': pass}))
-        }
-
-   </script>
+    <script src="static/ineed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     Enter Email: <input id = "email" type="text" >
     <br>
     <br>

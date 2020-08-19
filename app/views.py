@@ -16,7 +16,7 @@ jobs = {}
 def ineed():
     if 'email' in session:
         return render_template('Homepage.html')
-    return render_template('createaccount.html')
+    return render_template('login.html')
 
 
 @app.route('/login', methods=['PUT'])
@@ -32,8 +32,13 @@ def login():
         return jsonify({'response': 'this account does not exist'})
 
 
-@app.route('/createaccount', methods=['PUT'])
+@app.route('/get-create', methods=['GET'])
 def create_account():
+    return render_template('createaccount.html')
+
+
+@app.route('/createaccount', methods=['PUT'])
+def createaccount():
     req = request.json
     if req['email'] in users:
         return jsonify({'response': 'This email is already in use.'})

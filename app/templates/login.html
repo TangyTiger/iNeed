@@ -3,45 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <script>
-        function login() {
-            email = document.getElementById('email').value
-            pass = document.getElementById('pass').value
-            xhr = new XMLHttpRequest;
-            xhr.open('PUT', '/login')
-            xhr.setRequestHeader('content-type', 'application/json')
-            xhr.onreadystatechange =  function() {
-                if (this.readystate == 4 && this.status == 200) {
-                    res = JSON.parse(this.responseText)
-                    var resp = res.response
-                    document.getElementById('hi').innerHTML = resp
-                    xhr2 = new XMLHttpRequest;
-                    xhr2.open('GET', '/ineed')
-                    xhr.onreadystatechange = function() {
-                        if (this.readystate == 4 && this.status == 200) {
-                            document.getElementByTagName('body').innerHTML = this.responseText
-                        }
-                    }
-                }
-            }
-            xhr.send(JSON.stringify({'email': email, 'pass': pass}))
-        }
-
-   </script>
-        Email: <input id = "email" type="text" >
+    <script src="static/ineed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body id="body">
+Email: <input id = "email" type="text" >
         <br>
         <br>
-        Password: <input id = "pass" type="password" >
+Password: <input id = "pass" type="password" >
     <br>
     <br>
     <button type="button" onclick="login()">Submit</button>
+    <p id="creatacct" onclick="create_account()">Don't have an account? Create one!</p>
     <style>
         #email{
         text: blue;
         }
     </style>
-</head>
-<body>
-
 </body>
 </html>
