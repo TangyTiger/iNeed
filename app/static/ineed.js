@@ -24,7 +24,7 @@ function createaccount() {
     pass = document.getElementById('pass').value
     xhr = new XMLHttpRequest;
     xhr.open('PUT', '/createaccount')
-    xhr.setRequestHeader('content-type', 'application/json')
+    xhr.setRequestHeader('content-type', 'application/json'
     xhr.onreadystatechange =  function() {
         if (this.readyState == 4 && this.status == 200) {
             xhr2 = new XMLHttpRequest;
