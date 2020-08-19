@@ -6,17 +6,15 @@ function login() {
     xhr.setRequestHeader('content-type', 'application/json')
     xhr.onreadystatechange =  function() {
         if (this.readyState == 4 && this.status == 200) {
-            res = JSON.parse(this.responseText)
-            var resp = res.response
-            document.getElementById('hi').innerHTML = resp
             xhr2 = new XMLHttpRequest;
             xhr2.open('GET', '/ineed')
             xhr2.onreadystatechange = function() {
-                if (this.readystate == 4 && this.status == 200) {
+                if (this.readyState == 4 && this.status == 200) {
                     var newpage = this.responseText
                     document.getElementById('body').innerHTML = newpage
                 }
             }
+            xhr2.send()
         }
     }
     xhr.send(JSON.stringify({'email': email, 'pass': pass}))
@@ -29,17 +27,15 @@ function createaccount() {
     xhr.setRequestHeader('content-type', 'application/json')
     xhr.onreadystatechange =  function() {
         if (this.readyState == 4 && this.status == 200) {
-            res = JSON.parse(this.responseText)
-            var resp = res.response
-            document.getElementById('hi').innerHTML = resp
             xhr2 = new XMLHttpRequest;
             xhr2.open('GET', '/ineed')
             xhr2.onreadystatechange = function() {
-                if (this.readystate == 4 && this.status == 200) {
+                if (this.readyState == 4 && this.status == 200) {
                     document.getElementByTagName('body').innerHTML = this.responseText
                 }
             }
         }
+        xhr2.send()
     }
     xhr.send(JSON.stringify({'email': email, 'pass': pass}))
 }
