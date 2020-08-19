@@ -1,0 +1,338 @@
+Index: app/templates/login.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>iNeed!</title>\r\n    <script src=\"static/ineed.js\"></script>\r\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\r\n</head>\r\n<body id=\"body\">\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <div id = \"block\">\r\n    <br>\r\n    <p class = \"info\">\r\n    Email: <input class = \"input\" type=\"password\" id=\"email\">\r\n    <br>\r\n    <br>\r\n    Password: <input class = \"input\" type=\"password\" id=\"pass\">\r\n    <br>\r\n    <p>\r\n    <br>\r\n    <button type = \"button\" class = \"_button_\" onclick=\"login()\">Login</button>\r\n    <br>\r\n    <br>\r\n    <button id = \"creatacct\" class = \"_button_\" onclick=\"create_account()\">Don't have an account? Create one!</button>\r\n    <br>\r\n    <div>\r\n    <br>\r\n    <img src = \"/static/iNeed.png\" alt = \"still not working\" style = \"width:50px height:50px\">\r\n    <style>\r\n        .info{\r\n            background-color: #03CAFC;\r\n            border: none;\r\n            border-radius: 15px;\r\n            color: white;\r\n            padding: 15px 32px;\r\n            text-align: center;\r\n            text-decoration: none;\r\n            display: inline-block;\r\n            font-size: 16px;\r\n            font-family: helvetica;\r\n            margin: 4px 2px;\r\n            cursor: pointer;\r\n        }\r\n\r\n        ._button_{\r\n            background-color: #03CAFC;\r\n            border: none;\r\n            border-radius: 15px;\r\n            color: white;\r\n            padding: 15px 32px;\r\n            text-align: center;\r\n            text-decoration: none;\r\n            display: inline-block;\r\n            font-size: 16px;\r\n            font-family: helvetica;\r\n            margin: 4px 2px;\r\n            cursor: pointer;\r\n        }\r\n\r\n        .input{\r\n            border-radius: 15px;\r\n        }\r\n\r\n        #block{\r\n            background-color: #000000;\r\n            display: inline;\r\n        }\r\n\r\n       #body{\r\n           text-align: center;\r\n           background: #FFFFFF;\r\n       }\r\n    </style>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/templates/login.html	(revision 88889fc6d573c27063591e6042a15951dce2544c)
++++ app/templates/login.html	(date 1597873875743)
+@@ -28,7 +28,7 @@
+     <br>
+     <div>
+     <br>
+-    <img src = "/static/iNeed.png" alt = "still not working" style = "width:50px height:50px">
++    <img src = "/static/logo.png" alt = "still not working" style = "width:50px height:50px">
+     <style>
+         .info{
+             background-color: #03CAFC;
+Index: app/templates/createaccount.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n    <script src=\"static/ineed.js\"></script>\r\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>\r\n\r\n</head>\r\n<body id = \"body\">\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <p class = 'info'>\r\n    Enter Email: <input class = \"text-box\" id = \"email\" type=\"text\" >\r\n    <br>\r\n    <br>\r\n    Create Password: <input class = \"text-box\" id = \"pass\" type=\"password\" >\r\n    <br>\r\n    <br>\r\n    First Name: <input class = \"text-box\" id=\"fname\" type=\"text\">\r\n    <br>\r\n    <br>\r\n    Last Name: <input class = \"text-box\" id=\"lname\" type=\"text\">\r\n    <br>\r\n    <br>\r\n    County: <input class = \"text-box\" id=\"county\" type=\"text\">\r\n    <br>\r\n    <br>\r\n        </p>\r\n    <br>\r\n    <br>\r\n    <button type=\"button\" class = \"_button_\" onclick=\"createaccount()\">Create Account</button>\r\n    <button id = \"creatacct\" class = \"_button_\" onclick=\"login()\">Back to login</button>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <br>\r\n    <img id = \"logo\" src = \"/static/iNeed.png\" alt = \"still not working\">\r\n    <style>\r\n        .info{\r\n        background-color: #03CAFC;\r\n        border: none;\r\n        border-radius: 15px;\r\n        color: white;\r\n        padding: 15px 32px;\r\n        text-align: center;\r\n        text-decoration: none;\r\n        display: inline-block;\r\n        font-size: 25px;\r\n        margin: 4px 2px;\r\n        cursor: pointer;\r\n\r\n        }\r\n\r\n        .text-box{\r\n        border-radius: 15px;\r\n        }\r\n\r\n        ._button_{\r\n        background-color: #03CAFC;\r\n        border: none;\r\n        border-radius: 15px;\r\n        color: white;\r\n        padding: 15px 32px;\r\n        text-align: center;\r\n        text-decoration: none;\r\n        display: inline-block;\r\n        font-size: 25px;\r\n        font-family: helvetica\r\n        margin: 4px 2px;\r\n        cursor: pointer;\r\n        }\r\n\r\n        #logo{\r\n        width: 25%;\r\n        height: 25%;\r\n        }\r\n\r\n       #body{\r\n           text-align: center;\r\n           background: #ffffff;\r\n           border-right-style: solid;\r\n           border-right-width: 2.5x;\r\n           border-left-style: solid;\r\n           border-left-width: 2.5x;\r\n       }\r\n    </style>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/templates/createaccount.html	(revision 88889fc6d573c27063591e6042a15951dce2544c)
++++ app/templates/createaccount.html	(date 1597873875754)
+@@ -40,7 +40,7 @@
+     <br>
+     <br>
+     <br>
+-    <img id = "logo" src = "/static/iNeed.png" alt = "still not working">
++    <img id = "logo" src = "static/logo.png" alt = "still not working">
+     <style>
+         .info{
+         background-color: #03CAFC;
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n<<<<<<< HEAD\r\n    <list default=\"true\" id=\"ece3a28f-f927-4a8a-872c-85be9c21d008\" name=\"Default Changelist\" comment=\"asdf\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/templates/createaccount.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/templates/createaccount.html\" afterDir=\"false\" />\r\n=======\r\n    <list default=\"true\" id=\"ece3a28f-f927-4a8a-872c-85be9c21d008\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/CodeDay Project.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n>>>>>>> origin/master\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1gKZfsz1kuXk0bUncInSdmVSc5n\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/app/static\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\aarus_\\Documents\\GitHub\\CodeDay\\app\\static\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"run\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n<<<<<<< HEAD\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\Shah family\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe\" />\r\n=======\r\n      <option name=\"SDK_HOME\" value=\"C:\\Python27\\python.exe\" />\r\n>>>>>>> origin/master\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <module name=\"\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/run.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.run\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ece3a28f-f927-4a8a-872c-85be9c21d008\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1597865350832</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1597865350832</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"stuffseseseseses\">\r\n      <created>1597868726158</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1597868726158</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n<<<<<<< HEAD\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1597871413820\">\r\n      <screen x=\"0\" y=\"0\" width=\"2048\" height=\"1112\" />\r\n    </state>\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680\" timestamp=\"1597868070328\" />\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.bottom/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112\" timestamp=\"1597871413820\" />\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.center\" timestamp=\"1597871413820\">\r\n      <screen x=\"0\" y=\"0\" width=\"2048\" height=\"1112\" />\r\n    </state>\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680\" timestamp=\"1597868070328\" />\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.center/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112\" timestamp=\"1597871413820\" />\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.left\" timestamp=\"1597871413819\">\r\n      <screen x=\"0\" y=\"0\" width=\"2048\" height=\"1112\" />\r\n    </state>\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680\" timestamp=\"1597868070328\" />\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.left/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112\" timestamp=\"1597871413819\" />\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.right\" timestamp=\"1597871413820\">\r\n      <screen x=\"0\" y=\"0\" width=\"2048\" height=\"1112\" />\r\n    </state>\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680\" timestamp=\"1597868070328\" />\r\n    <state width=\"1012\" height=\"220\" key=\"GridCell.Tab.0.right/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112\" timestamp=\"1597871413820\" />\r\n=======\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"stuffseseseseses\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"stuffseseseseses\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"96\" y=\"0\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1597869702913\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"96\" y=\"0\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1597869702913\" />\r\n    <state x=\"561\" y=\"90\" key=\"CommitChangelistDialog2\" timestamp=\"1597868724696\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"561\" y=\"90\" key=\"CommitChangelistDialog2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1597868724696\" />\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1597872195088\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680\" timestamp=\"1597872195088\" />\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.center\" timestamp=\"1597872195088\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680\" timestamp=\"1597872195088\" />\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.left\" timestamp=\"1597872195088\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680\" timestamp=\"1597872195088\" />\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.right\" timestamp=\"1597872195088\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n<<<<<<< HEAD\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680\" timestamp=\"1597872195088\" />\r\n=======\r\n    <state width=\"1259\" height=\"163\" key=\"GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680\" timestamp=\"1597871341459\" />\r\n>>>>>>> origin/master\r\n>>>>>>> c328c25697af0f4e2bcf7b757a199012c08fcaa8\r\n    <state x=\"142\" y=\"0\" key=\"SettingsEditor\" timestamp=\"1597865426250\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"142\" y=\"0\" key=\"SettingsEditor/0.0.1280.680@0.0.1280.680\" timestamp=\"1597865426250\" />\r\n    <state x=\"552\" y=\"252\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1597868737709\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"552\" y=\"252\" key=\"Vcs.Push.Dialog.v2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1597868737709\" />\r\n    <state x=\"458\" y=\"255\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1597866487776\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"458\" y=\"255\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1597866487776\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 88889fc6d573c27063591e6042a15951dce2544c)
++++ .idea/workspace.xml	(date 1597874039174)
+@@ -19,16 +19,10 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-<<<<<<< HEAD
+-    <list default="true" id="ece3a28f-f927-4a8a-872c-85be9c21d008" name="Default Changelist" comment="asdf">
++    <list default="true" id="76953425-4029-44b3-91b3-d6fe18c1d05b" name="Default Changelist" comment="asdf">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/app/templates/createaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/createaccount.html" afterDir="false" />
+-=======
+-    <list default="true" id="ece3a28f-f927-4a8a-872c-85be9c21d008" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/CodeDay Project.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+->>>>>>> origin/master
++      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -38,10 +32,9 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectId" id="1gKZfsz1kuXk0bUncInSdmVSc5n" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++  <component name="ProjectId" id="1gFnFsqp1UPgY5yZOvIy7tFFeAN" />
++  <component name="ProjectLevelVcsManager">
+     <OptionsSetting value="false" id="Update" />
+-    <ConfirmationsSetting value="2" id="Add" />
+   </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+@@ -49,32 +42,22 @@
+   </component>
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/templates/login.html" />
+     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+   </component>
+-  <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="C:\Users\aarus_\Documents\GitHub\CodeDay\app\static" />
+-    </key>
+-  </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Python.run">
+     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="CodeDay" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-<<<<<<< HEAD
+-      <option name="SDK_HOME" value="C:\Users\Shah family\AppData\Local\Programs\Python\Python38-32\python.exe" />
+-=======
+-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+->>>>>>> origin/master
++      <option name="SDK_HOME" value="" />
+       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+-      <option name="IS_MODULE_SDK" value="false" />
++      <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <module name="" />
+       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+@@ -84,57 +67,89 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="CodeDay" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/views.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
+     <recent_temporary>
+       <list>
+         <item itemvalue="Python.run" />
++        <item itemvalue="Python.views" />
+       </list>
+     </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="ece3a28f-f927-4a8a-872c-85be9c21d008" name="Default Changelist" comment="" />
+-      <created>1597865350832</created>
++      <changelist id="76953425-4029-44b3-91b3-d6fe18c1d05b" name="Default Changelist" comment="" />
++      <created>1597719107850</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1597865350832</updated>
++      <updated>1597719107850</updated>
+     </task>
+-    <task id="LOCAL-00001" summary="stuffseseseseses">
+-      <created>1597868726158</created>
++    <task id="LOCAL-00001" summary="account created base">
++      <created>1597778087431</created>
+       <option name="number" value="00001" />
+       <option name="presentableId" value="LOCAL-00001" />
+       <option name="project" value="LOCAL" />
+-      <updated>1597868726158</updated>
++      <updated>1597778087431</updated>
++    </task>
++    <task id="LOCAL-00002" summary="stuffies">
++      <created>1597789581785</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1597789581785</updated>
++    </task>
++    <task id="LOCAL-00003" summary="hello there">
++      <created>1597789900031</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1597789900031</updated>
++    </task>
++    <task id="LOCAL-00004" summary="starting formatting">
++      <created>1597797897803</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1597797897803</updated>
++    </task>
++    <task id="LOCAL-00005" summary="finished for createaccount">
++      <created>1597812280824</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1597812280825</updated>
++    </task>
++    <task id="LOCAL-00006" summary="asdf">
++      <created>1597863240335</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1597863240335</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+-<<<<<<< HEAD
+-    <option name="oldMeFiltersMigrated" value="true" />
+-  </component>
+-  <component name="WindowStateProjectService">
+-    <state width="1012" height="220" key="GridCell.Tab.0.bottom" timestamp="1597871413820">
+-      <screen x="0" y="0" width="2048" height="1112" />
+-    </state>
+-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
+-    <state width="1012" height="220" key="GridCell.Tab.0.bottom/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413820" />
+-    <state width="1012" height="220" key="GridCell.Tab.0.center" timestamp="1597871413820">
+-      <screen x="0" y="0" width="2048" height="1112" />
+-    </state>
+-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
+-    <state width="1012" height="220" key="GridCell.Tab.0.center/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413820" />
+-    <state width="1012" height="220" key="GridCell.Tab.0.left" timestamp="1597871413819">
+-      <screen x="0" y="0" width="2048" height="1112" />
+-    </state>
+-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
+-    <state width="1012" height="220" key="GridCell.Tab.0.left/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413819" />
+-    <state width="1012" height="220" key="GridCell.Tab.0.right" timestamp="1597871413820">
+-      <screen x="0" y="0" width="2048" height="1112" />
+-    </state>
+-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597868070328" />
+-    <state width="1012" height="220" key="GridCell.Tab.0.right/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597871413820" />
+-=======
+     <option name="TAB_STATES">
+       <map>
+         <entry key="MAIN">
+@@ -147,50 +162,65 @@
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="stuffseseseseses" />
+-    <option name="LAST_COMMIT_MESSAGE" value="stuffseseseseses" />
++    <MESSAGE value="account created base" />
++    <MESSAGE value="stuffies" />
++    <MESSAGE value="hello there" />
++    <MESSAGE value="starting formatting" />
++    <MESSAGE value="finished for createaccount" />
++    <MESSAGE value="asdf" />
++    <option name="LAST_COMMIT_MESSAGE" value="asdf" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597869702913">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state x="679" y="152" key="CommitChangelistDialog2" timestamp="1597858590244">
++      <screen x="0" y="0" width="2048" height="1112" />
++    </state>
++    <state x="679" y="152" key="CommitChangelistDialog2/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597858590244" />
++    <state x="93" y="93" width="1862" height="926" key="DiffContextDialog" timestamp="1597863227499">
++      <screen x="0" y="0" width="2048" height="1112" />
++    </state>
++    <state x="93" y="93" width="1862" height="926" key="DiffContextDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597863227499" />
++    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1597810783369">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597869702913" />
+-    <state x="561" y="90" key="CommitChangelistDialog2" timestamp="1597868724696">
+-      <screen x="0" y="0" width="1920" height="1040" />
++    <state x="629" y="241" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597789147647" />
++    <state x="805" y="311" key="FileChooserDialogImpl/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597810783369" />
++    <state x="333" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1597862566751">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-    <state x="561" y="90" key="CommitChangelistDialog2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597868724696" />
+-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1597872195088">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state x="333" y="0" key="FileDocumentManager.FileCacheConflict/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597862566751" />
++    <state width="1012" height="220" key="GridCell.Tab.0.bottom" timestamp="1597874014193">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597872195088" />
+-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1597872195088">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state width="789" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1597790867532" />
++    <state width="1012" height="220" key="GridCell.Tab.0.bottom/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874014193" />
++    <state width="1012" height="220" key="GridCell.Tab.0.center" timestamp="1597874014192">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597872195088" />
+-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1597872195088">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state width="789" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1597790867531" />
++    <state width="1012" height="220" key="GridCell.Tab.0.center/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874014192" />
++    <state width="1012" height="220" key="GridCell.Tab.0.left" timestamp="1597874014192">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597872195088" />
+-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1597872195088">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state width="789" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1597790867531" />
++    <state width="1012" height="220" key="GridCell.Tab.0.left/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874014192" />
++    <state width="1012" height="220" key="GridCell.Tab.0.right" timestamp="1597874014192">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-<<<<<<< HEAD
+-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597872195088" />
+-=======
+-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597871341459" />
+->>>>>>> origin/master
+->>>>>>> c328c25697af0f4e2bcf7b757a199012c08fcaa8
+-    <state x="142" y="0" key="SettingsEditor" timestamp="1597865426250">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state width="789" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1597790867532" />
++    <state width="1012" height="220" key="GridCell.Tab.0.right/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874014192" />
++    <state x="301" y="74" key="SettingsEditor" timestamp="1597790665368">
++      <screen x="0" y="0" width="1600" height="860" />
+     </state>
+-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597865426250" />
+-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597868737709">
+-      <screen x="0" y="0" width="1920" height="1040" />
++    <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597790665368" />
++    <state x="502" y="211" key="Vcs.Push.Dialog.v2" timestamp="1597863245017">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597868737709" />
+-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597866487776">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1597789905628" />
++    <state x="502" y="211" key="Vcs.Push.Dialog.v2/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597863245017" />
++    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597866682030">
++      <screen x="0" y="0" width="2048" height="1112" />
+     </state>
+-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1597866487776" />
++    <state x="658" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1597790856466" />
++    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597866682030" />
+   </component>
+ </project>
+\ No newline at end of file
