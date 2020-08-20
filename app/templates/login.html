@@ -5,6 +5,15 @@
     <title>iNeed!</title>
     <script src="static/ineed.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function hover(x) {
+            x.style.opacity = 0.5;
+        }
+
+        function unhover(x) {
+           x.style.opacity = 1;
+        }
+    </script>
 </head>
 <body id="body">
     <br>
@@ -20,10 +29,10 @@
     <br>
     <p>
     <br>
-    <button type = "button" class = "_button_" onclick="login()">Login</button>
+    <button type = "button" class = "_button_" onclick="login()" onmouseover="hover(this)" onmouseout="unhover(this)">Login</button>
     <br>
     <br>
-    <button id = "creatacct" class = "_button_" onclick="create_account()">Don't have an account? Create one!</button>
+    <button id = "creatacct" class = "_button_" onclick="create_account()" onmouseover="hover(this)" onmouseout="unhover(this)">Don't have an account? Create one!</button>
     <br>
     <br>
     <img src = "/static/logo.png" alt = "still not working" style = "width:50px height:50px">

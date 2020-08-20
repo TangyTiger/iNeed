@@ -48,7 +48,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shah family\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -64,17 +64,17 @@
       <method v="2" />
     </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CodeDay" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/views.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -171,9 +171,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="asdf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="211" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597874125300">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="299" y="83" width="681" height="597" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597943818121">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="299" y="83" width="681" height="597" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597943818121" />
     <state x="479" y="211" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874125300" />
     <state x="679" y="152" key="CommitChangelistDialog2" timestamp="1597858590244">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -183,37 +184,38 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="93" y="93" width="1862" height="926" key="DiffContextDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597863227499" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1597810783369">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="503" y="190" key="FileChooserDialogImpl" timestamp="1597943375244">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="503" y="190" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597943375244" />
     <state x="629" y="241" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597789147647" />
     <state x="805" y="311" key="FileChooserDialogImpl/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597810783369" />
     <state x="333" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1597862566751">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="333" y="0" key="FileDocumentManager.FileCacheConflict/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597862566751" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1597875066036">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1597944100804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597875066036" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597944100804" />
     <state width="789" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1597790867532" />
     <state width="1012" height="220" key="GridCell.Tab.0.bottom/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731213" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1597875066035">
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1597944100804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597875066035" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597944100804" />
     <state width="789" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1597790867531" />
     <state width="1012" height="220" key="GridCell.Tab.0.center/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731212" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1597875066035">
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1597944100804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597875066035" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597944100804" />
     <state width="789" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1597790867531" />
     <state width="1012" height="220" key="GridCell.Tab.0.left/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731212" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1597875066035">
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1597944100804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597875066035" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597944100804" />
     <state width="789" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1597790867532" />
     <state width="1012" height="220" key="GridCell.Tab.0.right/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731213" />
     <state x="663" y="318" key="MultipleFileMergeDialog" timestamp="1597874907756">
