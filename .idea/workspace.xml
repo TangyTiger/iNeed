@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76953425-4029-44b3-91b3-d6fe18c1d05b" name="Default Changelist" comment="asdf" />
+    <list default="true" id="76953425-4029-44b3-91b3-d6fe18c1d05b" name="Default Changelist" comment="asdf">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_2_54_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_2_54_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_3_01_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_3_01_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/createaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/createaccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/templates/login.html" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunManager" selected="Python.run">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -48,7 +56,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Shah family\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -171,11 +179,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="asdf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="83" width="681" height="597" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597943818121">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="479" y="211" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597945932974">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="299" y="83" width="681" height="597" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597943818121" />
-    <state x="479" y="211" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874125300" />
+    <state x="479" y="211" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597945932974" />
     <state x="679" y="152" key="CommitChangelistDialog2" timestamp="1597858590244">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -194,38 +202,39 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="333" y="0" key="FileDocumentManager.FileCacheConflict/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597862566751" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1597945253713">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2027" height="220" key="GridCell.Tab.0.bottom" timestamp="1597948169814">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597945253713" />
     <state width="789" height="221" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1597790867532" />
-    <state width="1012" height="220" key="GridCell.Tab.0.bottom/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731213" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1597945253713">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2027" height="220" key="GridCell.Tab.0.bottom/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597948169814" />
+    <state width="2027" height="220" key="GridCell.Tab.0.center" timestamp="1597948169814">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597945253713" />
     <state width="789" height="221" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1597790867531" />
-    <state width="1012" height="220" key="GridCell.Tab.0.center/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731212" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1597945253713">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2027" height="220" key="GridCell.Tab.0.center/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597948169814" />
+    <state width="2027" height="220" key="GridCell.Tab.0.left" timestamp="1597948169813">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597945253713" />
     <state width="789" height="221" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1597790867531" />
-    <state width="1012" height="220" key="GridCell.Tab.0.left/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731212" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1597945253713">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="2027" height="220" key="GridCell.Tab.0.left/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597948169813" />
+    <state width="2027" height="220" key="GridCell.Tab.0.right" timestamp="1597948169814">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597945253713" />
     <state width="789" height="221" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1597790867532" />
-    <state width="1012" height="220" key="GridCell.Tab.0.right/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874731213" />
+    <state width="2027" height="220" key="GridCell.Tab.0.right/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597948169814" />
     <state x="663" y="318" key="MultipleFileMergeDialog" timestamp="1597874907756">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="663" y="318" key="MultipleFileMergeDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597874907756" />
-    <state x="301" y="74" key="SettingsEditor" timestamp="1597790665368">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="385" y="96" key="SettingsEditor" timestamp="1597946506222">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597790665368" />
+    <state x="385" y="96" key="SettingsEditor/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597946506222" />
     <state x="502" y="211" key="Vcs.Push.Dialog.v2" timestamp="1597874484271">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

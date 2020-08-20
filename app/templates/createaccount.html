@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,11 +7,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
+<style>
+        function hover(x) {
+            x.style.opacity = 0.5;
+        }
+
+        function unhover(x) {
+           x.style.opacity = 1;
+        }
+</style>
+</html>
 <body id = "body">
     <br>
     <br>
     <br>
-    <br>
+    <div>
     <br>
     <br>
     <p class = 'info'>
@@ -33,13 +43,11 @@
         </p>
     <br>
     <br>
-    <button type="button" class = "_button_" onclick="createaccount()">Create Account</button>
-    <button id = "creatacct" class = "_button_" onclick="login()">Back to login</button>
+    <button type="button" class = "_button_" onclick="createaccount()"  onmouseover="hover(this)" onmouseout="unhover(this)">Create Account</button>
+    <button id = "creatacct" class = "_button_" onclick="login()"  onmouseover="hover(this)" onmouseout="unhover(this)">Back to login</button>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
+    </div>
     <img id = "logo" src = "static/logo.png" alt = "still not working">
     <style>
         .info{
@@ -51,7 +59,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 20px;
+        font-size: 23px;
         margin: 4px 2px;
         cursor: pointer;
 
@@ -70,7 +78,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 21px;
+        font-size: 23px;
         font-family: helvetica
         margin: 4px 2px;
         cursor: pointer;
@@ -88,6 +96,12 @@
            border-right-width: 2.5px;
            border-left-style: solid;
            border-left-width: 2.5px;
+       }
+       div{
+           background: #3283a8;
+           margin: 0px 700px;
+           padding: 20px 20px 40px 20px;
+           border: 5px solid black;
        }
     </style>
 </body>
