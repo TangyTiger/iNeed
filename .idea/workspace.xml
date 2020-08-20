@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76953425-4029-44b3-91b3-d6fe18c1d05b" name="Default Changelist" comment="lol">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_2_54_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_2_54_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_3_01_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_3_01_PM__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="76953425-4029-44b3-91b3-d6fe18c1d05b" name="Default Changelist" comment="lolsadf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597948276025</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lolsadf">
+      <created>1597952367257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597952367257</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,14 +185,15 @@
     <MESSAGE value="finished for createaccount" />
     <MESSAGE value="asdf" />
     <MESSAGE value="lol" />
-    <option name="LAST_COMMIT_MESSAGE" value="lol" />
+    <MESSAGE value="lolsadf" />
+    <option name="LAST_COMMIT_MESSAGE" value="lolsadf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="211" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597945932974">
+    <state x="479" y="211" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597952544016">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="299" y="83" width="681" height="597" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597943818121" />
-    <state x="479" y="211" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597945932974" />
+    <state x="479" y="211" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597952544016" />
     <state x="679" y="152" key="CommitChangelistDialog2" timestamp="1597858590244">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -246,11 +249,11 @@
     </state>
     <state x="301" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597790665368" />
     <state x="385" y="96" key="SettingsEditor/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597946506222" />
-    <state x="502" y="211" key="Vcs.Push.Dialog.v2" timestamp="1597948433513">
+    <state x="502" y="211" key="Vcs.Push.Dialog.v2" timestamp="1597953271562">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="392" y="163" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1597789905628" />
-    <state x="502" y="211" key="Vcs.Push.Dialog.v2/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597948433513" />
+    <state x="502" y="211" key="Vcs.Push.Dialog.v2/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1597953271562" />
     <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597866682030">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
