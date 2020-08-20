@@ -15,11 +15,12 @@
         }
     </script>
 </head>
-<body id="body">
+<body>
     <br>
     <br>
     <br>
     <br>
+    <div>
     <br>
     <p class = "info">
     Email: <input class = "input" type="text" id="email">
@@ -27,13 +28,15 @@
     <br>
     Password: <input class = "input" type="password" id="pass">
     <br>
-    <p>
+    </p>
+    <br>
     <br>
     <button type = "button" class = "_button_" onclick="login()" onmouseover="hover(this)" onmouseout="unhover(this)">Login</button>
     <br>
     <br>
     <button id = "creatacct" class = "_button_" onclick="create_account()" onmouseover="hover(this)" onmouseout="unhover(this)">Don't have an account? Create one!</button>
     <br>
+    </div>
     <br>
     <img src = "/static/logo.png" alt = "still not working" style = "width:50px height:50px">
     <style>
@@ -72,9 +75,16 @@
         }
 
 
-       #body{
+       body{
            text-align: center;
            background: #FFFFFF;
+       }
+
+       div{
+           background: #ADADAD;
+           margin: 0px 350px;
+           padding: 20px 20px;
+           border: 10px solid black;
        }
     </style>
 </body>
