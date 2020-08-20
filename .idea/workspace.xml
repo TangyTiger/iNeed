@@ -27,9 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfc684a7-2433-42a5-931f-7d141a3aab25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_19_2020_1_17_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/database.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/database.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/createaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/createaccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +51,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\arins\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
@@ -70,6 +70,21 @@
         <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="sdfghjk">
@@ -94,12 +109,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sdfghjk" />
@@ -107,9 +123,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="created JSON database" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597959894404">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597961039039">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597961039039" />
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1597959894404" />
     <state x="561" y="90" key="CommitChangelistDialog2" timestamp="1597958036347">
       <screen x="0" y="0" width="1920" height="1040" />
