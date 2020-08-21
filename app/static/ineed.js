@@ -63,3 +63,28 @@ function homepage() {
     }
     xhr.send()
 }
+
+
+function availablejobs() {
+    xhr = new XMLHttpRequest
+    xhr.open('GET', '/ineed')
+    xhr.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+            var newpage = this.responseText
+            document.getElementById('body').innerHTML = newpage
+        }
+    }
+    xhr.send()
+}
+
+function createpost() {
+    xhr = new XMLHttpRequest
+    xhr.open('GET', '/ineed')
+    xhr.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+            var newpage = this.responseText
+            document.getElementById('body').innerHTML = newpage
+        }
+    }
+    xhr.send()
+}
