@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d29b9128-fdd4-446c-85b5-f4947ff803bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -66,17 +48,17 @@
       <method v="2" />
     </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CodeDay" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shah family\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\aarus_f7akck7\Code\CodeDay\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -106,31 +88,27 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="44" width="1743" height="1068" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598038096915">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="96" y="36" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598034037254">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="96" y="36" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1598034037254" />
-    <state x="154" y="44" width="1743" height="1068" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1598038096915" />
-    <state width="1259" height="190" key="GridCell.Tab.0.bottom" timestamp="1598035889508">
+    <state width="1259" height="190" key="GridCell.Tab.0.bottom" timestamp="1598036007916">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1598035889508" />
-    <state width="1259" height="190" key="GridCell.Tab.0.center" timestamp="1598035889508">
+    <state width="1259" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1598036007916" />
+    <state width="1259" height="190" key="GridCell.Tab.0.center" timestamp="1598036007916">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1598035889508" />
-    <state width="1259" height="190" key="GridCell.Tab.0.left" timestamp="1598035889508">
+    <state width="1259" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1598036007916" />
+    <state width="1259" height="190" key="GridCell.Tab.0.left" timestamp="1598036007915">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1598035889508" />
-    <state width="1259" height="190" key="GridCell.Tab.0.right" timestamp="1598035889508">
+    <state width="1259" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1598036007915" />
+    <state width="1259" height="190" key="GridCell.Tab.0.right" timestamp="1598036007916">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1598035889508" />
+    <state width="1259" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1598036007916" />
     <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1597973515424">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
