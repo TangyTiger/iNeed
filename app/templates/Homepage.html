@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <script>
+        function hover(x) {
+            x.style.opacity = 0.5;
+        }
+
+        function unhover(x) {
+           x.style.opacity = 1;
+        }
+    </script>
 </head>
 <body style=""></body>
 
@@ -87,7 +96,7 @@
             <input type="text" id="sjob" style="width: 75%; border-radius: 15px">
             <br>
             <br>
-            <button class="button">Search</button>
+            <button class="button" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "availablejobs()">Search</button>
         </div>
         <div style="display:table-cell">
             <img class="right" id = "customer" alt = "customer" src = "/static/customer.jpg" align="right">
@@ -97,7 +106,7 @@
         <div style="display:table-cell">
             <img id = "worker" class = "left" alt="worker" src = "/static/worker.png" align = "left">
         </div>
-            <button class="button" style="margin: 5% 5% 5% 5%; position: absolute; top: 50%; left: 66%; height: 15%; width: 25%; font-size: 47px; border: 10px solid #03CAFC">Post A Job</button>
+            <button class="button" style="margin: 5% 5% 5% 5%; position: absolute; top: 50%; left: 66%; height: 15%; width: 25%; font-size: 47px; border: 10px solid #03CAFC" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "createpost()">Post A Job</button>
     </div>
 </div>
 <br>
