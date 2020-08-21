@@ -1,17 +1,14 @@
 from app import app
-import random
+import random, json, os
 from flask import request, session, jsonify, render_template
 import logging
 
 logger = logging.getLogger("werkzeug")
 logger.setLevel(logging.ERROR)
 
-users = {
-        'sarthaklodha15@gmail.com': '1234567890',
-        'aarush.uli@gmail.com': 'p00p'
-        }
+userfile = 'users.json'
 
-jobs = {}
+jobfile = 'jobs.json'
 
 
 @app.route('/ineed', methods=['GET'])
@@ -24,6 +21,7 @@ def ineed():
 @app.route('/login', methods=['PUT'])
 def login():
     req = request.json
+    with open(userfile, 'r'):
     if req['email'] in users:
         if req['pass'] == users[req['email']]:
             session['email'] = req['email']
@@ -53,18 +51,21 @@ def createaccount():
 def post_job():
     req = request.json
     pin = random.randint(10000, 99999)
-    while pin in jobs:
-        pin = random.randint(10000, 99999)
-    job = {
-        'title': req['title'],
-        'description': req['description'],
-        'tags': req['tags'],
-        'location': req['location'],
-        'name': req['employer'],
-        'pin': pin
-    }
-    jobs[str(pin)] = job
-    return "lash;dflkhjdso"
+    with open(jobfile, 'r+') as f:
+        jobs = json.load(f)
+        while str(pin) in jobs:
+            pin = random.randint(10000, 99999)
+        job = {
+            'title': req['title'],
+            'description': req['description'],
+            'county': req['county'],
+            'name': session['email'],
+            'pin': pin
+        }
+        jobs[str(pin)] = job
+        f.seek(0)
+        json.dump(jobs, f, indent=4)
+    return "job created"
 
 
 @app.route('/apply', methods=['PUT'])

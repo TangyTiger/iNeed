@@ -79,11 +79,10 @@ function availablejobs() {
 
 function createpost() {
     xhr = new XMLHttpRequest
-    xhr.open('GET', '/ineed')
+    xhr.open('PUT', '/postjob')
     xhr.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
-            var newpage = this.responseText
-            document.getElementById('body').innerHTML = newpage
+
         }
     }
     xhr.send()
