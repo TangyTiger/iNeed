@@ -15,7 +15,7 @@
 </head>
 <body style=""></body>
 
-<div style="text-align:center">
+<div>
     <img src="/static/logo.png" id="pic">
 </div>
 
@@ -23,12 +23,13 @@
 <style>
 #leftbox {
     float: left;
-    width: 400px;
+    width: 27%;
     background: #03CAFC;
-    height: 100%;
     border-radius: 10px;
     padding: 2% 2% 2% 2%;
     margin: .2% .2% 2% 2%;
+    position: absolute;
+    top: 5%;
 }
 
 #rightbox {
@@ -57,20 +58,19 @@
         }
 
 #worker{
-        width: 300px;
-        height: 300px;
+        width: 25%;
         float: right;
-        position: absolute
-        left: 50px
+        position: absolute;
+        left: 50px;
+        top: 47%
         }
 
 #customer{
         width: 300px;
-        height: 300px;
         float: left;
         position: absolute;
         left:75%;
-        top:20%
+        top: 5%
         }
 
 .left {
@@ -81,6 +81,12 @@
         align: right
 }
 
+#pic {
+    position: absolute;
+    left: 36%;
+    top: 38%;
+    width: 30%
+}
 </style>
 <body>
 <br>
@@ -92,7 +98,7 @@
 <div id="content">
     <div style="display:table-row">
         <div class = "left" id="leftbox" style="display:table-cell">
-            <h2> Search for a job </h2>
+            <h2 style="font-family: helvetica"> Search for a job </h2>
             <input type="text" id="sjob" style="width: 75%; border-radius: 15px">
             <br>
             <br>
@@ -106,7 +112,7 @@
         <div style="display:table-cell">
             <img id = "worker" class = "left" alt="worker" src = "/static/worker.png" align = "left">
         </div>
-            <button class="button" style="margin: 5% 5% 5% 5%; position: absolute; top: 50%; left: 66%; height: 15%; width: 25%; font-size: 47px; border: 10px solid #03CAFC" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "createpost()">Post A Job</button>
+            <button class="button" style="margin: 5% 5% 5% 5%; position: absolute; top: 66%; left: 66%; height: 15%; width: 25%; font-size: 225%; border: 10px solid #03CAFC" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "createpost()">Post A Job</button>
     </div>
 </div>
 <br>
