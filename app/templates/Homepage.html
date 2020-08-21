@@ -14,7 +14,7 @@
 <style>
 #leftbox {
     float: left;
-    width: 40%;
+    width: 400px;
     background: #03CAFC;
     height: 100%;
     border-radius: 10px;
@@ -27,7 +27,6 @@
     width: 40%;
     background: #03CAFC;
     height: 100%;
-    overflow: scroll;
     border-radius: 10px;
     padding: 2% 2% 2% 2%;
     margin: .2% .2% 2% 2%;
@@ -43,7 +42,7 @@
         text-decoration: none;
         display: inline-block;
         font-size: 28px;
-        font-family: helvetica
+        font-family: helvetica;
         margin: 4px 2px;
         cursor: pointer;
         }
@@ -51,15 +50,18 @@
 #worker{
         width: 300px;
         height: 300px;
-        float: left;
-        border: 2px solid black;
+        float: right;
+        position: absolute
+        left: 50px
         }
 
 #customer{
         width: 300px;
         height: 300px;
-        float: right;
-        border: 2px solid black;
+        float: left;
+        position: absolute;
+        left:75%;
+        top:20%
         }
 
 .left {
@@ -79,23 +81,24 @@
 <br>
 <br>
 <div id="content">
-  <div class = "left" id="leftbox" class = "box">
-    <h2> Search for a job </h2>
-      <input type="text" id="sjob">
-      <br>
-      <br>
-      <button class = "button">Search</button>
-  </div>
-    <img id = "worker" class = "left" alt="worker" src = "/static/worker.jpg" align = "left">
-
-  <div class= "right" id="rightbox" class = "box">
-    <h2>Post a job</h2>
-        <input type="text" id="pjob">
-        <br>
-      <br>
-      <button class = "button">Post a job</button>
-  </div>
-    <img class= "right" id = "customer" alt = "customer" src = "/static/customer.jpg" align="right">
+    <div style="display:table-row">
+        <div class = "left" id="leftbox" style="display:table-cell">
+            <h2> Search for a job </h2>
+            <input type="text" id="sjob" style="width: 75%; border-radius: 15px">
+            <br>
+            <br>
+            <button class="button">Search</button>
+        </div>
+        <div style="display:table-cell">
+            <img class="right" id = "customer" alt = "customer" src = "/static/customer.jpg" align="right">
+        </div>
+    </div>
+    <div style="display:table-row">
+        <div style="display:table-cell">
+            <img id = "worker" class = "left" alt="worker" src = "/static/worker.png" align = "left">
+        </div>
+            <button class="button" style="margin: 5% 5% 5% 5%; position: absolute; top: 50%; left: 66%; height: 15%; width: 25%; font-size: 47px; border: 10px solid #03CAFC">Post A Job</button>
+    </div>
 </div>
 <br>
 
