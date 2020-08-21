@@ -5,19 +5,12 @@
     <title>Home</title>
 </head>
 <body style="background-color:#BEEBF7"></body>
-<center>
-<h1>
-     <span style="font-family:helvetica"><span style="color:#F7FCFE">
-    <div style="background-color:#03CAFC;width:200px;height:45px;border:6px solid #141414">Home</div>
-     </span></span>
-</h1>
-</center>
-<a href="">
-<left>
-    <img src="https://cdn.iconscout.com/icon/free/png-256/account-profile-avatar-man-circle-round-user-30452.png"width="100" height="100" style="float:right">
 
-</left>
-</a>
+<div style="text-align:center">
+    <img src="/static/logo.png" id="pic">
+</div>
+
+
 <style>
 #left {
     float: left;
@@ -40,9 +33,6 @@
     margin: 20px 20px 20px 20px;
 }
 
-#pic {
-    margin-left: 500px
-}
 </style>
 <body>
 <br>
@@ -54,25 +44,23 @@
 <div id="content">
   <div id="left">
       <br>
-      <br>
-    <h1> Search </h1>
+    <h2> Search for a job </h2>
       <input type="text">
       <br>
       <br>
-
+      <button>Search</button>
   </div>
+
   <div id="right">
-    <h3>Possible Jobs For Your Search:</h3>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+    <h2>Post a job</h2>
+        <input type="text" id="pjob" style="height:50px; width:95%">
+        <br>
+      <button>Post a job</button>
   </div>
 </div>
 <br>
 
-<img src="/static/logo.png" id="pic">
+
 
 </body>
 </html>
