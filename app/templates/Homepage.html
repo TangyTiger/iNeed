@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Home</title>
 </head>
-<body style="background-color:#BEEBF7"></body>
+<body style=""></body>
 
 <div style="text-align:center">
     <img src="/static/logo.png" id="pic">
@@ -33,6 +33,40 @@
     margin: .2% .2% 2% 2%;
 }
 
+.button{
+        background-color: #3283a8;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 28px;
+        font-family: helvetica
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+#worker{
+        width: 300px;
+        height: 300px;
+        float: left;
+        }
+
+#customer{
+        width: 300px;
+        height: 300px;
+        float: right;
+        }
+
+.left{
+align: left
+}
+
+.right{
+align: right
+}
+
 </style>
 <body>
 <br>
@@ -42,21 +76,23 @@
 <br>
 <br>
 <div id="content">
-  <div id="leftbox">
-      <br>
+  <div class = "left" id="leftbox" class = "box">
     <h2> Search for a job </h2>
       <input type="text" id="sjob">
       <br>
       <br>
-      <button>Search</button>
+      <button class = "button">Search</button>
   </div>
+    <img id = "worker" class = "left" alt="worker" src = "/static/worker.jpg" align = "left">
 
-  <div id="rightbox">
+  <div class= "right" id="rightbox" class = "box">
     <h2>Post a job</h2>
-        <input type="text" id="pjob" style="height:50px; width:95%">
+        <input type="text" id="pjob">
         <br>
-      <button>Post a job</button>
+      <br>
+      <button class = "button">Post a job</button>
   </div>
+    <img class= "right" id = "customer" alt = "customer" src = "/static/customer.jpg" align="right">
 </div>
 <br>
 
