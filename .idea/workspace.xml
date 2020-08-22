@@ -80,17 +80,17 @@
       <method v="2" />
     </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CodeDay" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Shah family\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\aarus_f7akck7\Code\CodeDay\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -163,31 +163,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="postajob" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="154" y="53" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598117650966">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="96" y="23" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598118841496">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="96" y="36" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1598034037254" />
+    <state x="96" y="23" width="1089" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1598118841496" />
     <state x="154" y="53" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1598117650966" />
     <state x="785" y="358" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598117781188">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="785" y="358" key="#com.intellij.fileTypes.FileTypeChooser/2560.196.1600.850/0.0.2048.1112@0.0.2048.1112" timestamp="1598117781188" />
-    <state width="1259" height="190" key="GridCell.Tab.0.bottom" timestamp="1598117242234">
+    <state width="1259" height="190" key="GridCell.Tab.0.bottom" timestamp="1598118876390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
-    <state width="1259" height="190" key="GridCell.Tab.0.center" timestamp="1598117242234">
+    <state width="1259" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1598118876390" />
+    <state width="1259" height="190" key="GridCell.Tab.0.center" timestamp="1598118876390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
-    <state width="1259" height="190" key="GridCell.Tab.0.left" timestamp="1598117242234">
+    <state width="1259" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1598118876390" />
+    <state width="1259" height="190" key="GridCell.Tab.0.left" timestamp="1598118876390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
-    <state width="1259" height="190" key="GridCell.Tab.0.right" timestamp="1598117242234">
+    <state width="1259" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1598118876390" />
+    <state width="1259" height="190" key="GridCell.Tab.0.right" timestamp="1598118876390">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
+    <state width="1259" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1598118876390" />
     <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1598117948651">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
