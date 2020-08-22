@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d29b9128-fdd4-446c-85b5-f4947ff803bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/Homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +74,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d29b9128-fdd4-446c-85b5-f4947ff803bd" name="Default Changelist" comment="" />
@@ -93,25 +95,25 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="96" y="36" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1598034037254" />
-    <state width="1259" height="190" key="GridCell.Tab.0.bottom" timestamp="1598036007916">
+    <state width="1259" height="190" key="GridCell.Tab.0.bottom" timestamp="1598117242234">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1598036007916" />
-    <state width="1259" height="190" key="GridCell.Tab.0.center" timestamp="1598036007916">
+    <state width="1259" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
+    <state width="1259" height="190" key="GridCell.Tab.0.center" timestamp="1598117242234">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1598036007916" />
-    <state width="1259" height="190" key="GridCell.Tab.0.left" timestamp="1598036007915">
+    <state width="1259" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
+    <state width="1259" height="190" key="GridCell.Tab.0.left" timestamp="1598117242234">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1598036007915" />
-    <state width="1259" height="190" key="GridCell.Tab.0.right" timestamp="1598036007916">
+    <state width="1259" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
+    <state width="1259" height="190" key="GridCell.Tab.0.right" timestamp="1598117242234">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1259" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1598036007916" />
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1597973515424">
+    <state width="1259" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1598117242234" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1598115868832">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1597973515424" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1598115868832" />
   </component>
 </project>
