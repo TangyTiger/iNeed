@@ -5,11 +5,21 @@
     <title>Post a job</title>
 </head>
 <body>
+<script>
+        function hover(x) {
+        x.style.opacity = 0.5;
+        }
+
+        function unhover(x) {
+           x.style.opacity = 1;
+        }
+</script>
 
 
 <img id = "logo" src = "static/logo.png" alt = "Ineed!">
 <br>
 <br>
+<p id = "info">
 <br>
 
 Title: <input class = "text-box" id = "title" type="text" >
@@ -66,6 +76,57 @@ County: <select id="county">
         <option value="Whitman County">Whitman County</option>
         <option value="Yakima County">Yakima County</option>
     </select>
+</p>
+<br>
+<br>
+<br>
+<br>
+<button type="button" class = "_button_" onclick="Homepage.html"  onmouseover="hover(this)" onmouseout="unhover(this)">Post this job!</button>
 
+
+
+<style>
+    body{
+    text-align: center;
+    background: #ffffff;
+    border-right-style: solid;
+    border-right-width: 2.5px;
+    border-left-style: solid;
+    border-left-width: 2.5px;
+    }
+
+
+    ._button_{
+        background-color: #03CAFC;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 23px;
+        font-family: helvetica
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+    #info{
+        background-color: #03CAFC;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 23px;
+        font-family: helvetica;
+        margin: 4px 2px;
+        cursor: pointer;
+
+        }
+    #title{
+    width: 90%
+</style>
 </body>
 </html>
