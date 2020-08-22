@@ -1,56 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb929b53-dd19-415c-a3c0-6be5cd040091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CodeDay.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/AvailableJobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/AvailableJobs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/Homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/postajob.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/postajob.html" afterDir="false" />
-    </list>
+    <list default="true" id="fb929b53-dd19-415c-a3c0-6be5cd040091" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
-  </component>
-  <component name="ProjectId" id="1gSwBC7iJhRAdx1U41mRjOBcxd2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
   <component name="RunManager">
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="CodeDay" />
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\arins\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="SDK_HOME" value="C:\Users\aarus_f7akck7\Code\CodeDay\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -60,124 +33,16 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="fb929b53-dd19-415c-a3c0-6be5cd040091" name="Default Changelist" comment="" />
-      <created>1598121164762</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1598121164762</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Retry">
-      <created>1598121416506</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1598121416506</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added some functions">
-      <created>1598121688369</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1598121688369</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Fixed">
-      <created>1598121881715</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1598121881715</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Fixed">
-      <created>1598121988845</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1598121988845</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Fixed">
-      <created>1598122085800</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1598122085800</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Fixed">
-      <created>1598122283082</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1598122283082</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Retry" />
-    <MESSAGE value="Added some functions" />
-    <MESSAGE value="Fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598121274679">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="96" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598122515922">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598121274679" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1598122282054">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598122282054" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1598122174054">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598122174054" />
-    <state width="1259" height="156" key="GridCell.Tab.0.bottom" timestamp="1598122176962">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598122176962" />
-    <state width="1259" height="156" key="GridCell.Tab.0.center" timestamp="1598122176962">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598122176962" />
-    <state width="1259" height="156" key="GridCell.Tab.0.left" timestamp="1598122176962">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598122176962" />
-    <state width="1259" height="156" key="GridCell.Tab.0.right" timestamp="1598122176962">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598122176962" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1598121323037">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598121323037" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1598122288450">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598122288450" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1598121208614">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1598121208614" />
-    <state x="450" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598121423657">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="450" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598121423657" />
+    <state x="96" y="36" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1598122515922" />
   </component>
 </project>
