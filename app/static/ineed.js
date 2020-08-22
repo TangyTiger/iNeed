@@ -67,7 +67,7 @@ function homepage() {
 
 function availablejobs() {
     xhr = new XMLHttpRequest
-    xhr.open('GET', '/ineed')
+    xhr.open('GET', '/availablejobs')
     xhr.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             var newpage = this.responseText
@@ -79,7 +79,7 @@ function availablejobs() {
 
 function createpost() {
     xhr = new XMLHttpRequest
-    xhr.open('GET', '/ineed')
+    xhr.open('GET', '/postajob')
     xhr.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             var newpage = this.responseText
