@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb929b53-dd19-415c-a3c0-6be5cd040091" name="Default Changelist" comment="" />
+    <list default="true" id="fb929b53-dd19-415c-a3c0-6be5cd040091" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CodeDay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/AvailableJobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/AvailableJobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/Homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/postajob.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/postajob.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -107,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598122085800</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed">
+      <created>1598122283082</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598122283082</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,10 +139,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598121274679" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1598122084920">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1598122282054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598122084920" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598122282054" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1598122174054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -149,10 +167,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598121323037" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1598122111446">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1598122288450">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598122111446" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598122288450" />
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1598121208614">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
