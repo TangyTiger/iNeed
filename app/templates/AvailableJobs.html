@@ -2,19 +2,56 @@
 <html lang="en">
 <style>
     #main{
-    width: 93%;
-    background: #03CAFC;
-    height: 100%;
-    overflow: scroll;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 20px 20px 20px 20px;
-    text-align: center;
+        width: 93%;
+        background: #03CAFC;
+        height: 100%;
+        overflow: scroll;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+    }
+
+    ._button_{
+        background-color: #03CAFC;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 23px;
+        font-family: helvetica
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    #pic {
+        position: absolute;
+        left: 38%;
+        top: 40%;
+        width: 22%;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding: 2% 2% 2% 2%;
+        border: 10px solid #03CAFC;
     }
 </style>
+<script>
+        function hover(x) {
+        x.style.opacity = 0.5;
+        }
+
+        function unhover(x) {
+           x.style.opacity = 1;
+        }
+</script>
 <head>
     <meta charset="UTF-8">
     <title>Jobs</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="static/ineed.js"></script>
 </head>
 <body>
     <div style="text-align:center">
@@ -22,9 +59,12 @@
 </div>
 <center>
 <div id="main">
-    <h2> Search results: </h2>
+    <h2> Query results: </h2>
 
 </div>
+    <button type="button" class = "_button_" onclick="login()"  onmouseover="hover(this)" onmouseout="unhover(this)">Back to Login</button>
+
+
 </center>
 </div>
 </body>

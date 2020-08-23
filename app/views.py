@@ -83,4 +83,10 @@ def apply():
     }
     return
 
+@app.route('/availablejobs', methods=['GET'])
+def availablejobs():
+    return render_template('AvailableJobs.html')
 
+@app.route('/postajob', methods=['GET'])
+def postajob():
+    return render_template('postajob.html')
