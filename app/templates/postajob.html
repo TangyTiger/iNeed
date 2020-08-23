@@ -24,13 +24,15 @@
 <p id = "info">
 <br>
 
-Title: <input class = "text-box" id = "title" type="text" >
+Title: <input placeholder="Title of your post" class = "text-box" id = "title" type="text" >
 
 <br>
 <br>
 <br>
 
-Body: <input class = "text-box" id = "information" type="textarea" >
+
+
+Body: <textarea id = "information" rows="6" cols="65" placeholder="Type what you want your post to contain"></textarea>
 
 <br>
 <br>
@@ -128,11 +130,14 @@ County: <select id="county">
 
         }
     #title{
-    width: 90%
+    width: 90%;
+    border-radius: 10px;
     }
     #information{
-    height: 100%
+    test-align: center;
+    border-radius: 15px;
     }
+
 </style>
 </body>
 </html>
