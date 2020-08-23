@@ -77,6 +77,9 @@ def apply():
         'email': req['email'],
         'job': req['job']
     }
+    if application['job'] not in jobs:
+        return 'Could not find the job you are applying for.'
+    email = jobs[application['jobs']]['email']
     return
 
 
