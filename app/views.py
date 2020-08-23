@@ -21,15 +21,16 @@ def ineed():
 @app.route('/login', methods=['PUT'])
 def login():
     req = request.json
-    with open(userfile, 'r'):
-    if req['email'] in users:
-        if req['pass'] == users[req['email']]:
-            session['email'] = req['email']
-            return jsonify({'response': 'you are logged in.'})
+    with open(userfile, 'r') as f:
+        users = json.load(f)
+        if req['email'] in users:
+            if req['pass'] == users[req['email']]:
+                session['email'] = req['email']
+                return jsonify({'response': 'you are logged in.'})
+            else:
+                return jsonify({'response': 'incorrect email or password'})
         else:
-            return jsonify({'response': 'incorrect email or password'})
-    else:
-        return jsonify({'response': 'this account does not exist'})
+            return jsonify({'response': 'this account does not exist'})
 
 
 @app.route('/get-create', methods=['GET'])
@@ -40,8 +41,10 @@ def create_account():
 @app.route('/createaccount', methods=['PUT'])
 def createaccount():
     req = request.json
-    if req['email'] in users:
-        return 'This email is already in use'
+    with open(userfile, 'r+') as f:
+        users = json.load(f)
+        if req['email'] in users:
+            return 'This email is already in use'
     users[req['email']] = req['pass']
     session['email'] = req['email']
     return 'Account Created!'
