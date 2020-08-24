@@ -88,3 +88,18 @@ function createpost() {
     }
     xhr.send()
 }
+
+function postjob() {
+    title = document.getElementById('title').value
+    description = document.getElementById('description').value
+    county = document.getElementById('county').value
+    xhr = new XMLHttpRequest;
+    xhr.open('PUT', '/postjob')
+    xhr.setRequestHeader('content-type', 'application/json')
+    xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            homepage()
+        }
+    }
+    xhr.send(JSON.stringify({'title': title, 'description': description, 'county': county}))
+}

@@ -21,24 +21,24 @@
 <img id = "logo" src = "static/logo.png" alt = "Ineed!">
 <br>
 <br>
-<p id = "info">
+<div id = "info">
 <br>
 
-Title: <input placeholder="Title of your post" class = "text-box" id = "title" type="text" >
-
-<br>
-<br>
-<br>
-
-
-
-Body: <textarea id = "information" rows="6" cols="65" placeholder="Type what you want your post to contain"></textarea>
+Title: <input placeholder="Title of your post." class = "text-box" id = "title" type="text" >
 
 <br>
 <br>
 <br>
 
-County: <select id="county">
+
+
+<p>Description:</p> <textarea id="description" rows="6" cols="65" placeholder="Describe your post."></textarea>
+
+<br>
+<br>
+<br>
+
+County: <select id="county" style="border-radius:15px">
         <option hidden disabled selected>Choose A County</option>
         <option value="Adams County">Adams County</option>
         <option value="Asotin County">Asotin County</option>
@@ -80,12 +80,12 @@ County: <select id="county">
         <option value="Whitman County">Whitman County</option>
         <option value="Yakima County">Yakima County</option>
     </select>
-</p>
+</div>
 <br>
 <br>
 <br>
 <br>
-<button type="button" class = "_button_" onclick="login()"  onmouseover="hover(this)" onmouseout="unhover(this)">Post this job!</button>
+<button type="button" class = "_button_" onclick="postjob()"  onmouseover="hover(this)" onmouseout="unhover(this)">Post this job!</button>
 
 
 

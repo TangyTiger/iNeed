@@ -56,12 +56,12 @@ def post_job():
     pin = random.randint(10000, 99999)
     while str(pin) in jobs:
         pin = random.randint(10000, 99999)
+        print(req)
     job = {
         'title': req['title'],
         'description': req['description'],
         'county': req['county'],
         'name': session['email'],
-        'pin': pin
     }
     jobs[str(pin)] = job
     return "job created"
