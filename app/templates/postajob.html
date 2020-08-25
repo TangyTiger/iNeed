@@ -5,90 +5,79 @@
     <title>Post a job</title>
 </head>
 <body>
-<script>
-        function hover(x) {
-        x.style.opacity = 0.5;
-        }
+        <script>
+                function hover(x) {
+                x.style.opacity = 0.5;
+                }
 
-        function unhover(x) {
-           x.style.opacity = 1;
-        }
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="static/ineed.js"></script>
+                function unhover(x) {
+                   x.style.opacity = 1;
+                }
 
-
-<img id = "logo" src = "static/logo.png" alt = "Ineed!">
-<br>
-<br>
-<div id = "info">
-<br>
-
-Title: <input placeholder="Title of your post." class = "text-box" id = "title" type="text" >
-
-<br>
-<br>
-<br>
-
-
-
-<p>Description:</p> <textarea id="description" rows="6" cols="65" placeholder="Describe your post."></textarea>
-
-<br>
-<br>
-<br>
-
-County: <select id="county" style="border-radius:15px">
-        <option hidden disabled selected>Choose A County</option>
-        <option value="Adams County">Adams County</option>
-        <option value="Asotin County">Asotin County</option>
-        <option value="Benton County">Benton County</option>
-        <option value="Chelan County">Chelan County</option>
-        <option value="Clallam County">Clallam County</option>
-        <option value="Clark County">Clark County</option>
-        <option value="Columbia County">Columbia County</option>
-        <option value="Cowlitz County">Cowlitz County</option>
-        <option value="Douglas County">Douglas County</option>
-        <option value="Ferry County">Ferry County</option>
-        <option value="Franklin County">Franklin County</option>
-        <option value="Garfield County">Garfield County</option>
-        <option value="Grant County">Grant County</option>
-        <option value="Grays Harbor">Grays Harbor</option>
-        <option value="Island County">Island County</option>
-        <option value="Jefferson County">Jefferson County</option>
-        <option value="King County">King County</option>
-        <option value="Kitsap County">Kitsap County</option>
-        <option value="Kittitas County">Kittitas County</option>
-        <option value="Klickitat County">Klickitat County</option>
-        <option value="Lewis County">Lewis County</option>
-        <option value="Lincoln County">Lincoln County</option>
-        <option value="Mason County">Mason County</option>
-        <option value="Okanogan County">Okanogan County</option>
-        <option value="Pacific County">Pacific County</option>
-        <option value="Pend Oreille County">Pend Oreille County</option>
-        <option value="Pierce County">Pierce County</option>
-        <option value="San Juan County">San Juan County</option>
-        <option value="Skagit County">Skagit County</option>
-        <option value="Skamania County">Skamania County</option>
-        <option value="Snohomish County">Snohomish County</option>
-        <option value="Spokane County">Spokane County</option>
-        <option value="Stevens County">Stevens County</option>
-        <option value="Thurston County">Thurston County</option>
-        <option value="Wahkiakum County">Wahkiakum County</option>
-        <option value="Walla Walla County">Walla Walla County</option>
-        <option value="Whatcom County">Whatcom County</option>
-        <option value="Whitman County">Whitman County</option>
-        <option value="Yakima County">Yakima County</option>
-    </select>
-</div>
-<br>
-<br>
-<br>
-<br>
-<button type="button" class = "_button_" onclick="postjob()"  onmouseover="hover(this)" onmouseout="unhover(this)">Post this job!</button>
-
-
-
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="static/ineed.js"></script>
+        <img id = "logo" src = "static/logo.png" alt = "Ineed!">
+        <br>
+        <br>
+        <div id = "info">
+        <br>
+        Title: <input placeholder="Title of your post." class = "text-box" id = "title" type="text" >
+        <br>
+        <br>
+        <br>
+        <p>Description:</p> <textarea id="description" rows="6" cols="65" placeholder="Describe your post:"></textarea>
+        <br>
+        <br>
+        <br>
+        County: <select id="county" style="border-radius:15px">
+                <option hidden disabled selected>Choose A County</option>
+                <option value="Adams County">Adams County</option>
+                <option value="Asotin County">Asotin County</option>
+                <option value="Benton County">Benton County</option>
+                <option value="Chelan County">Chelan County</option>
+                <option value="Clallam County">Clallam County</option>
+                <option value="Clark County">Clark County</option>
+                <option value="Columbia County">Columbia County</option>
+                <option value="Cowlitz County">Cowlitz County</option>
+                <option value="Douglas County">Douglas County</option>
+                <option value="Ferry County">Ferry County</option>
+                <option value="Franklin County">Franklin County</option>
+                <option value="Garfield County">Garfield County</option>
+                <option value="Grant County">Grant County</option>
+                <option value="Grays Harbor">Grays Harbor</option>
+                <option value="Island County">Island County</option>
+                <option value="Jefferson County">Jefferson County</option>
+                <option value="King County">King County</option>
+                <option value="Kitsap County">Kitsap County</option>
+                <option value="Kittitas County">Kittitas County</option>
+                <option value="Klickitat County">Klickitat County</option>
+                <option value="Lewis County">Lewis County</option>
+                <option value="Lincoln County">Lincoln County</option>
+                <option value="Mason County">Mason County</option>
+                <option value="Okanogan County">Okanogan County</option>
+                <option value="Pacific County">Pacific County</option>
+                <option value="Pend Oreille County">Pend Oreille County</option>
+                <option value="Pierce County">Pierce County</option>
+                <option value="San Juan County">San Juan County</option>
+                <option value="Skagit County">Skagit County</option>
+                <option value="Skamania County">Skamania County</option>
+                <option value="Snohomish County">Snohomish County</option>
+                <option value="Spokane County">Spokane County</option>
+                <option value="Stevens County">Stevens County</option>
+                <option value="Thurston County">Thurston County</option>
+                <option value="Wahkiakum County">Wahkiakum County</option>
+                <option value="Walla Walla County">Walla Walla County</option>
+                <option value="Whatcom County">Whatcom County</option>
+                <option value="Whitman County">Whitman County</option>
+                <option value="Yakima County">Yakima County</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="button" class = "_button_" onclick="postjob()"  onmouseover="hover(this)" onmouseout="unhover(this)">Post this job!</button>
 <style>
     body{
     text-align: center;
@@ -119,7 +108,7 @@ County: <select id="county" style="border-radius:15px">
         border: none;
         border-radius: 15px;
         color: white;
-        padding: 15px 32px;
+        padding: .2% 2% 2% 2%;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -127,15 +116,16 @@ County: <select id="county" style="border-radius:15px">
         font-family: helvetica;
         margin: 4px 2px;
         cursor: pointer;
+    }
 
-        }
     #title{
     width: 90%;
     border-radius: 10px;
     }
+
     #information{
     test-align: center;
-    border-radius: 15px;
+    border-radius: 20px;
     }
 
 </style>

@@ -80,7 +80,7 @@ def apply():
     if application['job'] not in jobs:
         return 'Could not find the job you are applying for.'
     email = jobs[application['jobs']]['email']
-    return
+    return "application created"
 
 
 @app.route('/availablejobs', methods=['GET'])
@@ -91,3 +91,4 @@ def availablejobs():
 @app.route('/postajob', methods=['GET'])
 def postajob():
     return render_template('postajob.html')
+
