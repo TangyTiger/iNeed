@@ -6,9 +6,23 @@
         background: #03CAFC;
         height: 100%;
         border-radius: 10px;
+        padding: 2% 2% 2% 2%;
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+        font-family: helvetica;
+        font-size: 200%;
+    }
+
+    #query{
+        width: 93%;
+        background: #03CAFC;
+        height: 100%;
+        border-radius: 10px;
         padding: 5px;
         margin: 20px 20px 20px 20px;
         text-align: center;
+        font-family: helvetica;
+        font-size: 100%;
     }
 
     ._button_{
@@ -16,25 +30,31 @@
         border: none;
         border-radius: 15px;
         color: white;
-        padding: 15px 32px;
+        padding: 20px 43px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 23px;
+        font-size: 180%;
         font-family: helvetica
-        margin: 4px 2px;
+        margin: 2% 2% 2% 2%;
         cursor: pointer;
     }
 
     #pic {
         position: absolute;
-        left: 38%;
+        left: 36.5%;
         top: 40%;
         width: 22%;
         background-color: #FFFFFF;
         border-radius: 15px;
         padding: 2% 2% 2% 2%;
         border: 10px solid #03CAFC;
+    }
+
+    #search{
+        border-radius: 15px;
+        top: 10%;
+        width: 40%;
     }
 </style>
 <script>
@@ -55,15 +75,16 @@
 <body>
     <div style="text-align:center">
     <img src="/static/logo.png" id="pic" onclick = "login()">
-</div>
+    </div>
 <center>
-<div id="main">
+    <div id="main">
+        <strong>Search:</strong> <input id = "search" placeholder = "search for jobs..." </input>
+    </div>
+    <div id = "query">
     <h2> Query results: </h2>
     <p id="jobs"></p>
-</div>
-    <button type="button" class = "_button_" onclick="homepage()"  onmouseover="hover(this)" onmouseout="unhover(this)">Back to Homepage</button>
-
-
+    </div>
+        <button type="button" class = "_button_" onclick="homepage()"  onmouseover="hover(this)" onmouseout="unhover(this)">Back to Homepage</button>
 </center>
 </div>
 </body>

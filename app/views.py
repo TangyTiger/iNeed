@@ -65,6 +65,9 @@ def post_job():
     }
     jobs[str(pin)] = job
     return "job created"
+    for i in job:
+        if job[i] == None:
+            return 'empty field'
 
 
 @app.route('/apply', methods=['PUT'])
