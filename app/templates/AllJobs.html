@@ -41,13 +41,13 @@
     }
 
     #pic {
-        position: absolute;
         left: 36.5%;
         top: 40%;
         width: 22%;
         background-color: #FFFFFF;
         border-radius: 15px;
         padding: 2% 2% 2% 2%;
+        margin-top: 3%;
         border: 10px solid #03CAFC;
     }
 
@@ -72,13 +72,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="static/ineed.js"></script>
 </head>
-<body>
-    <div style="text-align:center">
-    <img src="/static/logo.png" id="pic" onclick = "login()">
-    </div>
+<body onload="getjobs({{jobs}})">
+
 <center>
     <div id="main">
-        <strong>Search:</strong> <input id = "search" placeholder = "search for jobs..." </input>
+        <strong>Search:</strong> <input id = "search" placeholder = "search for jobs...">
     </div>
     <div id = "query">
     <h2> All Jobs: </h2>
@@ -86,6 +84,8 @@
     </div>
         <button type="button" class = "_button_" onclick="homepage()"  onmouseover="hover(this)" onmouseout="unhover(this)">Back to Homepage</button>
 </center>
+<div style="text-align:center">
+    <img src="/static/logo.png" id="pic" onclick = "login()">
 </div>
 </body>
 </html>

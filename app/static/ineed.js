@@ -65,13 +65,15 @@ function homepage() {
 }
 
 
-function availablejobs() {
+function availablejobs(jobs) {
     xhr = new XMLHttpRequest
     xhr.open('GET', '/availablejobs')
     xhr.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             var newpage = this.responseText
             document.getElementById('body').innerHTML = newpage
+
+            setTimeout(function() {getjobs(jobs)}, 100)
         }
     }
     xhr.send()
@@ -102,4 +104,14 @@ function postjob() {
         }
     }
     xhr.send(JSON.stringify({'title': title, 'description': description, 'county': county}))
+}
+
+function getjobs(jobs) {
+    for (var key in jobs) {
+        var p = document.createElement('p')
+        var div = document.getElementById('jobs')
+        p.innerHTML = jobs[key].title
+        div.appendChild(p)
+
+    }
 }

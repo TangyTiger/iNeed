@@ -32,7 +32,8 @@
     margin: .2% .2% 2% 2%;
     position: absolute;
     top: 5%;
-    overflow: scroll
+    overflow-y: scroll;
+    max-height: 25%;
 }
 
 #rightbox {
@@ -141,7 +142,7 @@
             <p id="job5">{{job5}}</p>
             <br>
             <br>
-            <button class="button" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "availablejobs()">More Jobs</button>
+            <button class="button" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "availablejobs({{jobs}})">More Jobs</button>
         </div>
         <div style="display:table-cell">
             <img class="right" id = "customer" alt = "customer" src = "/static/customer.jpg" align="right">

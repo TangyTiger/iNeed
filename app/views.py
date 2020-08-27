@@ -26,7 +26,8 @@ def ineed():
         titles = []
         for pin, job in jobs.items():
             titles.append(job['title'])
-        return render_template('Homepage.html', job1=titles[0], job2=titles[1], job3=titles[2], job4=titles[3], job5=titles[4])
+        return render_template('Homepage.html', job1=titles[0], job2=titles[1], job3=titles[2], job4=titles[3], job5=titles[4], jobs=jobs)
+    session['jobs'] = {}
     return render_template('login.html')
 
 
@@ -76,9 +77,6 @@ def post_job():
     jobs[str(pin)] = job
     session['jobs'][str(pin)] = job
     return "job created"
-    for i in job:
-        if job[i] == None:
-            return 'empty field'
 
 
 @app.route('/apply', methods=['PUT'])
@@ -104,4 +102,3 @@ def availablejobs():
 @app.route('/postajob', methods=['GET'])
 def postajob():
     return render_template('postajob.html')
-
