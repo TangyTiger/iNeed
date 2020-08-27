@@ -11,13 +11,22 @@ users = {
     'aarush.uli@gmail.com': 'p00p'
 }
 
-jobs = {}
+jobs = {
+    '1111': {'title': 'Plumbing Help Needed'},
+    '2222': {'title': 'Plumber Needed'},
+    '2212': {'title': 'Plumber Needed'},
+    '2322': {'title': 'Plumber Needed'},
+    '2223': {'title': 'Plumber Needed'}
+}
 
 
 @app.route('/ineed', methods=['GET'])
 def ineed():
     if 'email' in session:
-        return render_template('Homepage.html')
+        titles = []
+        for pin, job in jobs.items():
+            titles.append(job['title'])
+        return render_template('Homepage.html', job1=titles[0], job2=titles[1], job3=titles[2], job4=titles[3], job5=titles[4])
     return render_template('login.html')
 
 
@@ -62,8 +71,10 @@ def post_job():
         'description': req['description'],
         'county': req['county'],
         'name': session['email'],
+        'pin': str(pin)
     }
     jobs[str(pin)] = job
+    session['jobs'][str(pin)] = job
     return "job created"
     for i in job:
         if job[i] == None:
@@ -82,13 +93,12 @@ def apply():
     }
     if application['job'] not in jobs:
         return 'Could not find the job you are applying for.'
-    email = jobs[application['jobs']]['email']
     return "application created"
 
 
 @app.route('/availablejobs', methods=['GET'])
 def availablejobs():
-    return render_template('AvailableJobs.html')
+    return render_template('AllJobs.html')
 
 
 @app.route('/postajob', methods=['GET'])

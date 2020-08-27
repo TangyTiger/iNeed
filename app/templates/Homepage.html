@@ -32,6 +32,7 @@
     margin: .2% .2% 2% 2%;
     position: absolute;
     top: 5%;
+    overflow: scroll
 }
 
 #rightbox {
@@ -132,11 +133,15 @@
 <div id="content">
     <div style="display:table-row">
         <div class = "left" id="leftbox" style="display:table-cell">
-            <h2 style="font-family: helvetica"> Search for an employee </h2>
-            <input type="text" id="sjob">
+            <h2 style="font-family: helvetica"> Jobs available: </h2>
+            <p id="job1">{{job1}}</p>
+            <p id="job2">{{job2}}</p>
+            <p id="job3">{{job3}}</p>
+            <p id="job4">{{job4}}</p>
+            <p id="job5">{{job5}}</p>
             <br>
             <br>
-            <button class="button" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "availablejobs()">Search</button>
+            <button class="button" onmouseover = "hover(this)" onmouseout = "unhover(this)" onclick = "availablejobs()">More Jobs</button>
         </div>
         <div style="display:table-cell">
             <img class="right" id = "customer" alt = "customer" src = "/static/customer.jpg" align="right">
