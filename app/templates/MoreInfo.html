@@ -3,8 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <script src="/static/ineed.js"></script>
+    <style>
+        #apply{
+            background-color: #03CAFC;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            padding: 20px 43px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 180%;
+            font-family: helvetica
+            margin: 2% 2% 2% 2%;
+            cursor: pointer;
+        }
+
+        #div{
+            width: 93%;
+            background: #03CAFC;
+            max-height: 50%;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 20px 20px 20px 20px;
+            text-align: center;
+            font-family: helvetica;
+            font-size: 100%;
+        }
+    </style>
 </head>
 <body>
-
+    <div id = "div">
+    <h1>Title:</h1>
+    <p>Description:</p>
+    <p>County:</p>
+    <button id = "apply" onclick = "apply()"></button>
+    </div>
 </body>
 </html>
