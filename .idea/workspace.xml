@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb929b53-dd19-415c-a3c0-6be5cd040091" name="Default Changelist" comment="designing postajob">
-      <change beforePath="$PROJECT_DIR$/.idea/CodeDay Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/createaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/createaccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/ineed.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/ineed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/MoreInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/MoreInfo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\aarus_f7akck7\Code\CodeDay\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Program Files\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598566305351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed buttons">
+      <created>1598656944034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598656944034</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,13 +125,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asdfghjk" />
     <MESSAGE value="many changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="many changes" />
+    <MESSAGE value="fixed buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed buttons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="90" key="CommitChangelistDialog2" timestamp="1598566304504">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598657024027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="90" key="CommitChangelistDialog2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1598566304504" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1598657024027" />
+    <state x="558" y="90" key="CommitChangelistDialog2" timestamp="1598656941031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="558" y="90" key="CommitChangelistDialog2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1598656941031" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598570576599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,10 +165,10 @@
     </state>
     <state width="1259" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1598656446370" />
     <state width="1899" height="274" key="GridCell.Tab.0.right/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1598567044052" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598566310879">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598656953102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1598566310879" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/1920.482.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1598656953102" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598572085294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

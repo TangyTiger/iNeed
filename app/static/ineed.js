@@ -142,7 +142,7 @@ function apply() {
     xhr = new XMLHttpRequest
     xhr.open('PUT', '/apply')
     xhr.onreadystatechange = function() {
-        if (this.readyState == 4 %% this.status == 200) {
+        if (this.readyState == 4 && this.status == 200) {
             var email = this.responseText
             document.getElementById('apply').innerHTML = "Employer's email: " + email
         }
