@@ -81,17 +81,9 @@ def post_job():
 
 @app.route('/apply', methods=['PUT'])
 def apply():
-    req = request.json
-    application = {
-        'name': req['applicant'],
-        'bio': req['bio'],
-        'price': req['price'],
-        'email': req['email'],
-        'job': req['job']
-    }
-    if application['job'] not in jobs:
-        return 'Could not find the job you are applying for.'
-    return "application created"
+    pin = session['jobviewing']
+    email = jobs[pin]['name']
+    return email
 
 
 @app.route('/availablejobs', methods=['GET'])
@@ -109,5 +101,6 @@ def moreinfo():
     req = request.json
     pin = req['pin']
     job = jobs[pin]
+    session['jobviewing'] = pin
     return render_template('MoreInfo.html', title=job['title'], description=job['description'], county=job['county'], email=job['name'])
 
