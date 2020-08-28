@@ -114,6 +114,8 @@ function getjobs(jobs) {
         p.innerHTML = jobs[key].title
         button.innerHTML =  'More Info'
         button.onclick = moreinfo(key)
+        button.className = 'info'
+        p.className = 'text'
         div.appendChild(p)
         div.appendChild(button)
 
@@ -145,4 +147,5 @@ function apply() {
             document.getElementById('apply').innerHTML = "Employer's email: " + email
         }
     }
+    xhr.send()
 }
