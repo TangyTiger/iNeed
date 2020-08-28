@@ -109,5 +109,5 @@ def moreinfo():
     req = request.json
     pin = req['pin']
     job = jobs[pin]
-    return render_template('MoreInfo.html')
+    return render_template('MoreInfo.html', title=job['title'], description=job['description'], county=job['county'], email=job['name'])
 
