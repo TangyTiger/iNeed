@@ -44,6 +44,21 @@
         top: 10%;
         width: 40%;
     }
+
+    #getjob{
+        background-color: #03CAFC;
+        border: none;
+        border-radius: 15px;
+        color: white;
+        padding: 20px 43px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 180%;
+        font-family: helvetica
+        margin: 2% 2% 2% 2%;
+        cursor: pointer;
+    }
 </style>
 <script>
         function hover(x) {
@@ -60,7 +75,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="static/ineed.js"></script>
 </head>
-<body onload="getjobs({{jobs}})">
+<body id = "getjob" onload="getjobs({{jobs}})">
 
 <center>
     <div id="query">
