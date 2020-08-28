@@ -102,3 +102,12 @@ def availablejobs():
 @app.route('/postajob', methods=['GET'])
 def postajob():
     return render_template('postajob.html')
+
+
+@app.route('/moreinfo', methods=['PUT'])
+def moreinfo():
+    req = request.json
+    pin = req['pin']
+    job = jobs[pin]
+    return render_template('MoreInfo.html')
+

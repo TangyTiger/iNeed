@@ -122,8 +122,16 @@ function getjobs(jobs) {
 
 function moreinfo(pin) {
     return function() {
+        console.log(pin)
         xhr = new XMLHttpRequest;
-        xhr.open('GET', '/jobinfo')
+        xhr.open('PUT', '/moreinfo')
         xhr.setRequestHeader('content-type', 'application/json')
+        xhr.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var newpage = this.responseText
+                document.getElementById('body').innerHTML = newpage
+            }
+        }
+        xhr.send(JSON.stringify({'pin': pin}))
     }
 }
