@@ -5,7 +5,7 @@
     <script src="/static/ineed.js"></script>
     <style>
         #apply{
-            background-color: #03CAFC;
+            background-color: #3283a8;
             border: none;
             border-radius: 15px;
             color: white;
@@ -34,10 +34,13 @@
 </head>
 <body>
     <div id = "div">
-    <h1>Title:</h1>
-    <p>Description:</p>
-    <p>County:</p>
-    <button id = "apply" onclick = "apply()"></button>
+    <h1>Title: {{title}}</h1>
+        <br>
+    <p>Description: {{description}}</p>
+        <br>
+    <p>County:{{county}}</p>
+        <br>
+    <button id = "apply" onclick = "apply()">Apply for this job</button>
     </div>
 </body>
 </html>
