@@ -110,8 +110,20 @@ function getjobs(jobs) {
     for (var key in jobs) {
         var p = document.createElement('p')
         var div = document.getElementById('jobs')
+        var button = document.createElement('button')
         p.innerHTML = jobs[key].title
+        button.innerHTML =  'More Info'
+        button.onclick = moreinfo(key)
         div.appendChild(p)
+        div.appendChild(button)
 
+    }
+}
+
+function moreinfo(pin) {
+    return function() {
+        xhr = new XMLHttpRequest;
+        xhr.open('GET', '/jobinfo')
+        xhr.setRequestHeader('content-type', 'application/json')
     }
 }
